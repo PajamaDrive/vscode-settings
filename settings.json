@@ -1,0 +1,51 @@
+{
+    "terminal.integrated.fontFamily": "HackGenNerd",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none",
+    "terminal.integrated.fontWeightBold": "normal",
+    "workbench.editor.enablePreview": false,
+    "vim.useSystemClipboard": true,
+    "vim.handleKeys": {
+        "<C-x>": false,
+        "<C-c>": false,
+    },
+
+    "BracketHighlighter.textColor": "none",
+    "BracketHighlighter.textDecoration": "none",
+    "BracketHighlighter.highlightScopeFromText": true,
+    "BracketHighlighter.maxLineSearchCount": 10000,
+    "BracketHighlighter.blurOutOfScopeText": true,
+    "BracketHighlighter.blurOpacity": "0.8",
+    "BracketHighlighter.letterSpacing": "0.2px",
+    "BracketHighlighter.fontWeight": "bold",
+    "BracketHighlighter.ignoreContent": false,
+    "BracketHighlighter.text": null,
+    "editor.acceptSuggestionOnEnter": "off",
+    "togglequotes.chars": ["\"","'","`"],
+
+    "editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"eslint.format.enable": false,
+	"editor.formatOnSave": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+    "[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+    "[dart]": {
+		"editor.defaultFormatter": "Dart-Code.dart-code"
+	},
+	"editor.lineNumbers": "on",
+	"editor.rulers": [100],
+	"editor.wordWrap": "on",
+	"eslint.packageManager": "yarn",
+	"files.insertFinalNewline": true,
+	"files.trimTrailingWhitespace": true,
+	"npm.packageManager": "yarn",
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}

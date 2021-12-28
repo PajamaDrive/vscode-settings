@@ -1,0 +1,17 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+alt+t",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "alt+shift+t",
+        "command": "trailing-spaces.deleteTrailingSpaces",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+shift+m",
+        "command": "trailing-spaces.deleteTrailingSpacesModifiedLinesOnly",
+        "when": "editorTextFocus"
+    },
+]
